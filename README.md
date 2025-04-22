@@ -1,8 +1,9 @@
- AI Resume Maker
+<pre>
+ <h1>AI Resume Maker</h1>
 
 AI Resume Maker is a full-stack web application that allows users to generate professional resumes using AI (Deepseek-R1 via Ollama). Built with a modern tech stack — Java Spring Boot for the backend and React + Vite for the frontend — this project provides a seamless, fast, and responsive user experience.
-Tech Stack:
-o	Frontend
+<b>Tech Stack:</b>
+o	<b>Frontend</b>
 •	Framework: React.js + Vite
 •	Styling: TailwindCSS, DaisyUI
 •	Libraries:
@@ -15,7 +16,7 @@ o	React Icons – For iconography
 o	react-to-pdf- Help integrate actual resume page
 o	daisyUI- Customize theme
 
-o	Backend
+o	<b>Backend</b>
 •	Platform: Spring Boot v3.4.4 (via Spring Initializr)
 •	Language:  Java 17
 •	Build Tool: Maven
@@ -27,11 +28,11 @@ o	`ObjectMapper` – For parsing JSON objects
 o	`Module` – For modular configuration
 •	Lombok – To reduce boilerplate code
 
-Hosting: 
+<b>Hosting:</b>
 o	Platform:  Render (for deployment)
 o	Link: https://ai-resume-maker-4i5w.onrender.com/
 
-Features:
+<b>Features:</b>
 o	AI-powered resume generation
 o	Real-time form validation with responsive UI
 o	Download resumes in PDF format
@@ -39,9 +40,9 @@ o	Modern animations and smooth UX
 o	Fully RESTful API integration
 o	Cross-origin request support (CORS)
 
-Installation Guide:
+<b>Installation Guide:</b>
 Clone the Repository:
-git clone https://github.com/yourusername/ai-resume-maker.git
+git clone https://github.com/rabbitota/ai-resume-maker.git
 cd ai-resume-maker
 Run the Application
 o	Backend (Spring Boot): 
@@ -53,7 +54,8 @@ o	Frontend (React + Vite):
 	cd frontend
 	npm install
 	npm run dev
-REST API Overview
+ 
+<b>REST API Overview </b>
 Method	Endpoint	Description
 POST	/api/resume/generate	Generate resume using AI
 GET	/api/resume/{id}	Fetch resume by ID
@@ -64,7 +66,9 @@ o	Create your feature branch (git checkout -b feature/AmazingFeature)
 o	Commit your changes (git commit -m 'Add some feature')
 o	Push to the branch (git push origin feature/AmazingFeature)
 o	Open a pull request
-Contact:
+ 
+<b>Contact:</b>
 Have questions or suggestions? Feel free to reach out via GitHub Issues or Pull Requests.
 Let me know if you'd like me to tailor any sections further—like adding your GitHub username, a live link, or demo screenshots.
 
+</pre>
